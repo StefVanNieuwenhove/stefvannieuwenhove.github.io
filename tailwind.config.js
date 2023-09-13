@@ -5,10 +5,12 @@ module.exports = {
   theme: {
     colors: {
       // dark mode
-      black: '#222831',
-      'dark-gray': '#393E46',
-      'dark-ocean': '#00ADB5',
-      ocean: '#00FFF5',
+      dark: {
+        light: '#5C8374',
+        main: '#183D3D',
+        dark: '#040D12',
+        contrastText: '#93B1A6',
+      },
       // light mode
       'dark-kaki': '#7A7D68',
       'light-beige': '#F4F4F4',
@@ -18,6 +20,7 @@ module.exports = {
       // primary
       white: '#FFFFFF',
       sun: '#FFC500',
+      moon: '#131862',
       'light-gray': '#EFEFEF',
     },
   },

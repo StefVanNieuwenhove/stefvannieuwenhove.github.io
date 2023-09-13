@@ -8,8 +8,8 @@ function App() {
         <main>
           <Home />
           <Skills />
-          <Projects />
-          <Contact />
+          {/* <Projects />
+          <Contact /> */}
         </main>
       </ThemeProvider>
     </>

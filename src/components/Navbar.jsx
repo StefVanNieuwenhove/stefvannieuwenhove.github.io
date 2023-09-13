@@ -13,7 +13,7 @@ const Navbar = () => {
   const { toggleTheme, theme } = useTheme();
   return (
     <>
-      <header className='w-full h-16 px-2 sticky z-20 top-0 left-0 border-b bg-light-blue text-dark-blue dark:text-white dark:bg-dark-blue '>
+      <header className='w-full h-16 px-2 sticky z-20 top-0 left-0 border-b bg-light-blue text-dark-blue dark:text-white dark:bg-dark-ocean '>
         <nav className='flex justify-between px-4 items-center h-full'>
           <div>
             <h1 className='text-lg'>
@@ -25,7 +25,7 @@ const Navbar = () => {
               <a
                 key={page.name}
                 href={`#${page.name.toLowerCase()}`}
-                className='hover:underline text-lg focus:underline focus:'
+                className='hover:underline text-lg focus:underline'
               >
                 {page.name}
               </a>
@@ -47,6 +47,8 @@ const Navbar = () => {
           </div>
         </nav>
       </header>
+
+      {/* <Outlet />  */}
     </>
   );
 };
